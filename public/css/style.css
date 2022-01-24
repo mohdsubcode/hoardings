@@ -1,0 +1,228 @@
+.ind {
+  margin-left: 7em;
+  margin-right: 7em;
+}
+
+.top-nav {
+  font-size: 0.8rem;
+  background-color: #f80808;
+}
+
+.top-nav i {
+  padding-right: 0.3em;
+  padding-left: 1em;
+}
+
+.top-nav button {
+  margin: 0 0 0 0;
+  padding: 0 0.2em 0 0.2em;
+  background-color: white;
+  color: #f80808;
+  font-size: 0.8rem;
+}
+
+.mid-nav {
+  padding-left: 3em;
+  padding-right: 6em;
+}
+.mid-nav i {
+  font-size: 1.3rem;
+  padding: 0.1em 0.1em 0.1em 0.1em;
+}
+
+.mid-nav form button {
+  border-color: grey;
+  background-color: transparent;
+}
+
+.mid-nav button {
+  display: inline-flex;
+  border-color: #f80808;
+  margin: 0 0 0 0;
+  padding: 0.15em 0.4em 0.15em 0.4em;
+}
+
+.mid-nav button img {
+  margin-right: 0.4em;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #212529;
+}
+
+.landing-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../images/home2.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.vertical-center {
+  margin-left: 7em;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.landing-img h1,
+h3 {
+  color: white;
+}
+
+.landing-img h1 {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.landing-img h3 {
+  font-size: 1.4rem;
+}
+
+.landing-img button {
+  color: white;
+  background-color: #f80808;
+  border-color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cards h5,
+h6 {
+  text-align: center;
+}
+
+.cards h6 {
+  color: blue;
+}
+
+.para {
+  width: 78%;
+  color: #212529;
+}
+
+.vid-para {
+  width: 100%;
+}
+
+.vid-para p {
+  color: white;
+}
+
+.video-cards {
+  background-color: white;
+  color: white;
+}
+
+.colored-bg {
+  position: relative;
+  width: 67.5%;
+  padding-bottom: 7em;
+  padding-top: 3em;
+  border-radius: 0 48px 48px 0;
+  background: linear-gradient(to bottom right, #c84b31, #ff1700);
+  z-index: 0;
+}
+.video-cards .card-body {
+  padding: 0 0 0 0;
+}
+
+.vid {
+  margin-left: 12em;
+  margin-right: 5em;
+  z-index: 1;
+  transform: translateY(-48%);
+}
+
+.benefits img {
+  align-self: center;
+  height: 5em;
+  width: 5em;
+}
+
+.benefits .card {
+  text-align: center;
+  border: none;
+}
+
+.learn-more {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/pexels-darya-sannikova-2422404.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.learn-more p {
+  color: white;
+}
+
+.learn-more button {
+  border-radius: 0;
+  background-color: #f80808;
+  color: white;
+  font-weight: bold;
+}
+
+.connect-form {
+  background-color: #eeeeee;
+  padding: 0 6em 0 6em;
+}
+.connect-form form {
+  padding: 3em 3em 3em 3em;
+  background-color: white;
+}
+
+.connect-form h1,
+.connect-form p {
+  text-align: center;
+}
+
+.form-button button {
+  background-color: #f80808;
+  border-radius: 0%;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.footer hr {
+  color: white;
+}
+
+.bottom-links li {
+  margin-right: 1.8em;
+}
+
+.footer {
+  background-color: #212529;
+}
+
+.footer h5 {
+  font-size: 1.7rem;
+}
+
+.footer a {
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+}
+
+.footer p {
+  text-align: left;
+  color: rgb(214, 214, 214);
+  font-size: 1.2rem;
+}
+
+.footer i {
+  color: white;
+  margin-right: 0.5em;
+  font-size: 1.5rem;
+}
